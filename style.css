@@ -1,3 +1,145 @@
-p {
-color: red;
+/* Reset Style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.logo-r {
+    color: #FD6E0A;
+}
+
+/* Common Style */
+.common-btn {
+    background-color: #FD6E0A;
+    padding: 6px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.outline-btn {
+    background-color: white;
+    padding: 6px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    cursor: pointer;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Nav bar Style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+
+}
+
+/* hero style */
+
+.her0-parent-root {
+    background-color: #FFF8F3;
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.hero-left-p1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.hero-left-btn-parent {
+    margin-top: 12px;
+}
+
+/* About Style */
+.about-parent {
+    background-color: #FFF8F3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 75px;
+    text-align: center;
+}
+
+.about-parent p {
+    margin: 20px o;
+}
+
+.about-parent-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.about-parent-box .box {
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* What i do style */
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+
+.what-i-do-card-parent{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.what-i-do-card{
+    border: 2px solid #FD6E0A;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.what-i-do-card p{
+    color: #757575;
+}
+
+.what-i-do-card h2{
+    margin: 10px 0;
 }
